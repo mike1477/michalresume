@@ -10,9 +10,17 @@
         <?php wp_head(); ?>
     </head>
     <body <?php body_class(); ?>>
+      <section>
+        <div class="top">
+          <div class="top-site-title">
+            <h1><?php bloginfo('name') ?></h1>
+            <p><?php bloginfo('description') ?></p>
+          </div>
+        </div>
+      </section>
        <header>
          <div class="site-title">
-           <h1><?php bloginfo('name') ?></h1>
+           <h2><?php bloginfo('name') ?></h2>
          </div>
          <nav>
            <?php
@@ -22,3 +30,4 @@
             ?>
          </nav>
        </header>
+       <div class="container">
