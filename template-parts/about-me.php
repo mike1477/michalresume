@@ -10,5 +10,4 @@
       echo $section_about_me_video->post_content;
      ?>
   </div>
-
 </section>

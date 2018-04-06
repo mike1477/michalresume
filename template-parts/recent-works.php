@@ -1,4 +1,4 @@
-<section>
+<section class="recent-works">
   <header>
     <!-- Get section post by post id -->
     <?php $section_recent_works = get_post(42); ?>
@@ -14,7 +14,7 @@
       echo '<ul>';
       while ( $the_query->have_posts() ) {
         $the_query->the_post();
-        echo '<li>' . get_the_title() . the_content() . '</li>';
+        echo '<li>' . get_the_content() . '</li>';
       }
       echo '</ul>';
       /* Restore original Post Data */

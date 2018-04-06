@@ -1,0 +1,84 @@
+/*
+color : #6b9898; green ish
+background-color: #f6f6f6; white ish
+color: #444; default text color black ish
+*/
+body{
+  font-family: 'Open Sans', sans-serif;
+    line-height: 25px;
+    color: #444;
+}
+h1,h2,h3,h6{
+  text-transform: uppercase;
+  font-weight: 400;
+}
+h1{
+  font-size: 7em;
+}
+h3{
+  font-size: 3em;
+}
+h6{
+  font-size: 1.8em;
+}
+section{
+  text-align: center;
+}
+/****************************************************************
+  TOP HEADER
+*****************************************************************/
+.top-header{
+
+}
+.top-header p{
+  font-size: 3em;
+}
+/****************************************************************
+  NAV HEADER
+*****************************************************************/
+.nav-header{
+  padding: 0px 30px;
+}
+.nav-header .site-title{
+  display: inline-block;
+  width:49%;
+}
+.nav-header .site-title h2{
+  font-size: 2em;
+}
+.nav-header nav{
+  display: inline-block;
+  width: 50%;
+}
+.menu-header-container{
+  text-align: right;
+}
+.menu-header-container ul li{
+  display: inline-block;
+  text-decoration: none;
+
+}
+.menu-header-container ul li a{
+  padding: 2px 8px;
+}
+/****************************************************************
+  GOOD AT SECTION
+*****************************************************************/
+.good-at ul{
+
+}
+.good-at ul li{
+  display: inline-block;
+  width: 15%;
+}
+/****************************************************************
+  RECENT WORKS SECTION
+*****************************************************************/
+.recent-works ul li{
+  display: inline-block;
+  width: 33%;
+}
+.recent-works ul li img{
+  display: block;
+  height: 200px;
+}

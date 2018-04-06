@@ -10,15 +10,16 @@
         <?php wp_head(); ?>
     </head>
     <body <?php body_class(); ?>>
-      <section>
-        <div class="top">
+      <section class="top-header">
+        <div>
           <div class="top-site-title">
             <h1><?php bloginfo('name') ?></h1>
             <p><?php bloginfo('description') ?></p>
+            <a href="#">down</a>
           </div>
         </div>
       </section>
-       <header>
+       <header class="nav-header">
          <div class="site-title">
            <h2><?php bloginfo('name') ?></h2>
          </div>
