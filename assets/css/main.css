@@ -7,6 +7,7 @@ body{
   font-family: 'Open Sans', sans-serif;
     line-height: 25px;
     color: #444;
+    margin: 0px;
 }
 h1,h2,h3,h6{
   text-transform: uppercase;
@@ -23,21 +24,32 @@ h6{
 }
 section{
   text-align: center;
+  padding:40px;
 }
 /****************************************************************
   TOP HEADER
 *****************************************************************/
 .top-header{
-
+ border:solid red 3px;
+ position: relative;
 }
 .top-header p{
   font-size: 3em;
+}
+.down{
+  padding-top: 50px;
 }
 /****************************************************************
   NAV HEADER
 *****************************************************************/
 .nav-header{
-  padding: 0px 30px;
+  background-color:#000;
+  position: absolute;
+  left: 0px;
+  right:0px;
+  bottom:0px;
+  padding-left: 80px;
+  padding-right: 80px;
 }
 .nav-header .site-title{
   display: inline-block;
@@ -45,6 +57,7 @@ section{
 }
 .nav-header .site-title h2{
   font-size: 2em;
+  text-align: left;
 }
 .nav-header nav{
   display: inline-block;
@@ -62,6 +75,12 @@ section{
   padding: 2px 8px;
 }
 /****************************************************************
+  ABOUT ME SECTION
+*****************************************************************/
+.about-me{
+ background-color: #f6f6f6;
+}
+/****************************************************************
   GOOD AT SECTION
 *****************************************************************/
 .good-at ul{
@@ -74,6 +93,9 @@ section{
 /****************************************************************
   RECENT WORKS SECTION
 *****************************************************************/
+.recent-works{
+  background-color: #f6f6f6;
+}
 .recent-works ul li{
   display: inline-block;
   width: 33%;
@@ -81,4 +103,23 @@ section{
 .recent-works ul li img{
   display: block;
   height: 200px;
+}
+/****************************************************************
+   CONTACT SECTION
+*****************************************************************/
+.contact{
+  background-color: #f6f6f6;
+
+}
+/****************************************************************
+   BACKGROUND VIDEO SECTION
+*****************************************************************/
+.background-video{
+  position: fixed;
+  top:0px;
+  bottom:0px;
+  right:0px;
+  left:0px;
+  background-color: #6b9898;
+  z-index: -1;
 }

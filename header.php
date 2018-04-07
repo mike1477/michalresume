@@ -15,20 +15,23 @@
           <div class="top-site-title">
             <h1><?php bloginfo('name') ?></h1>
             <p><?php bloginfo('description') ?></p>
-            <a href="#">down</a>
+            <div class="down">
+              <a href="#">down</a>
+            </div>          
           </div>
         </div>
+        <header class="nav-header">
+          <div class="site-title">
+            <h2><?php bloginfo('name') ?></h2>
+          </div>
+          <nav>
+            <?php
+             wp_nav_menu( array(
+               'theme_location' => 'primary'
+              ) );
+             ?>
+          </nav>
+        </header>
       </section>
-       <header class="nav-header">
-         <div class="site-title">
-           <h2><?php bloginfo('name') ?></h2>
-         </div>
-         <nav>
-           <?php
-            wp_nav_menu( array(
-              'theme_location' => 'primary'
-             ) );
-            ?>
-         </nav>
-       </header>
+
        <div class="container">
