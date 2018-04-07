@@ -123,3 +123,7 @@ section{
   background-color: #6b9898;
   z-index: -1;
 }
+.background-video video{
+  left:0px;
+  right:0px;
+}
