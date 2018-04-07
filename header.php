@@ -17,12 +17,12 @@
             <p><?php bloginfo('description') ?></p>
             <div class="down">
               <a href="#">down</a>
-            </div>          
+            </div>
           </div>
         </div>
         <header class="nav-header">
           <div class="site-title">
-            <h2><?php bloginfo('name') ?></h2>
+            <h2><a href="<?php echo get_home_url(); ?>"><?php bloginfo('name') ?></a></h2>
           </div>
           <nav>
             <?php
