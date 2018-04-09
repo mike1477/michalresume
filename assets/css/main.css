@@ -18,6 +18,7 @@ h1{
 }
 h3{
   font-size: 3em;
+  margin-top: 80px;
 }
 h6{
   font-size: 1.8em;
@@ -119,12 +120,24 @@ section{
 /****************************************************************
   GOOD AT SECTION
 *****************************************************************/
-.good-at ul{
-
+.good-at h3{
+  color:#fff;
+  margin-bottom: 70px;
 }
 .good-at ul li{
   display: inline-block;
-  width: 15%;
+  width: 19%;
+  text-align: center;
+}
+.good-at ul li div{
+
+}
+.box{
+   margin-left: 25%;
+}
+.good-at-title{
+  color:#c6ff00;
+  display: block;
 }
 /****************************************************************
   RECENT WORKS SECTION
