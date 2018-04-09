@@ -1,4 +1,4 @@
-<section class="contact">
+<section id="contact" class="contact navigation">
   <header>
     <h3>contact me</h3>
     <h6>get in touch</h6>

@@ -1,4 +1,4 @@
-<section class="recent-works">
+<section id="recent-works" class="recent-works navigation">
   <header>
     <!-- Get section post by post id -->
     <?php $section_recent_works = get_post(42); ?>

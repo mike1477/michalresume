@@ -10,19 +10,19 @@
         <?php wp_head(); ?>
     </head>
     <body <?php body_class(); ?>>
-      <section class="top-header">
+      <section id="top-header" class="top-header navigation">
         <div>
           <div class="top-site-title">
             <h1><?php bloginfo('name') ?></h1>
             <p><?php bloginfo('description') ?></p>
             <div class="down">
-              <a href="#">down</a>
+              <a href="#" id="down" class="menu-item"><i class="fas fa-chevron-circle-down"></i></a>
             </div>
           </div>
         </div>
-        <header class="nav-header">
+        <header class="nav-header nav-header-bottom">
           <div class="site-title">
-            <h2><a href="<?php echo get_home_url(); ?>"><?php bloginfo('name') ?></a></h2>
+            <h2><a href="#" class="gohome">michal <span class="green">harrison</span></a></h2>
           </div>
           <nav>
             <?php

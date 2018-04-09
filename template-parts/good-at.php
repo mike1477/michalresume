@@ -1,4 +1,4 @@
-<section class="good-at">
+<section id="good-at" class="good-at navigation">
   <h3>i'm good at</h3>
   <?php
     // The Query

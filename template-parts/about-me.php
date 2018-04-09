@@ -1,4 +1,4 @@
-<section class="about-me">
+<section id="about-me" class="about-me navigation">
   <header>
     <?php $section_about_me = get_post(30); ?>
      <h3><?php echo $section_about_me->post_title; ?></h3>

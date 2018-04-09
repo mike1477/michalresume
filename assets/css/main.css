@@ -9,7 +9,7 @@ body{
     color: #444;
     margin: 0px;
 }
-h1,h2,h3,h6{
+ h2,h3,h6{
   text-transform: uppercase;
   font-weight: 400;
 }
@@ -26,31 +26,57 @@ section{
   text-align: center;
   padding:40px;
 }
+.green{
+  color:#6b9898;
+}
 /****************************************************************
   TOP HEADER
 *****************************************************************/
 .top-header{
- border:solid red 3px;
+ padding-top: 10%;
  position: relative;
+ color: #fff;
+ text-transform: uppercase;
 }
 .top-header p{
   font-size: 3em;
+
 }
 .down{
   padding-top: 50px;
 }
+.down a{
+  color: #fff;
+  font-size: 4em;
+  transition: font-size .2s;
+}
+.down a:hover{
+  color : #6b9898;
+  font-size: 4.2em;
+
+
+}
+
 /****************************************************************
   NAV HEADER
 *****************************************************************/
 .nav-header{
   background-color:#000;
-  position: absolute;
+  z-index: 5;
   left: 0px;
   right:0px;
-  bottom:0px;
   padding-left: 80px;
   padding-right: 80px;
 }
+.nav-header-top{
+  position: fixed;
+  top:0px;
+}
+.nav-header-bottom{
+  position: absolute;
+  bottom:0px;
+}
+
 .nav-header .site-title{
   display: inline-block;
   width:49%;
@@ -58,6 +84,10 @@ section{
 .nav-header .site-title h2{
   font-size: 2em;
   text-align: left;
+}
+.nav-header .site-title h2 a{
+    color:#fff;
+    text-decoration: none;
 }
 .nav-header nav{
   display: inline-block;
@@ -71,8 +101,14 @@ section{
   text-decoration: none;
 
 }
+#menu-item-7{
+  color: #fff;
+}
 .menu-header-container ul li a{
   padding: 2px 8px;
+}
+.menu-header-container ul li a:hover{
+  cursor: pointer;
 }
 /****************************************************************
   ABOUT ME SECTION
