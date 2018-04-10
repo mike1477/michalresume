@@ -24,7 +24,8 @@
   var fourthSection = ".contact";
 
   // Set the Sections to User window height
-  var screenHeight = $(window).height();
+  //var screenHeight = $(window).height();
+  var screenHeight = 700;
   $(allSections).css("height" , screenHeight);
 
   /////////////////////////////////////////////////////////////

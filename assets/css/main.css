@@ -19,6 +19,7 @@ h1{
 h3{
   font-size: 3em;
   margin-top: 80px;
+  font-weight: bold;
 }
 h6{
   font-size: 1.8em;
@@ -158,8 +159,95 @@ section{
 *****************************************************************/
 .contact{
   background-color: #f6f6f6;
-
+  background-repeat: no-repeat;
+  background-size: 100%;
+  position: relative;
 }
+.contact-inner{
+  position: absolute;
+  top:0px;
+  left: 0px;
+  right: 0px;
+  bottom:0px;
+  background-color: rgba(0,0,0,0.7);
+}
+.contact-inner header{
+  color: #fff;
+}
+.contact-inner header h3{
+  padding-top:20px;
+  padding-bottom: 0px;
+  margin-bottom:30px;
+}
+.contact-inner header h6{
+  margin-top:0px;
+  margin-bottom: 20px;
+}
+.contact-section-outer{
+  width:70%;
+  margin: auto;
+  position: relative;
+}
+.contact-section-outer aside{
+  display: inline-table;
+  width:30%;
+}
+.contact-section-outer aside div{
+  height: 50px;
+  text-align: left;
+}
+.contact-section-outer aside div p{
+  color:#fff;
+  font-size: 1.4em;
+  padding-top:0px;
+  margin-top:0px;
+}
+.contact-icon{
+  margin-right: 10px;
+}
+.contact-section-outer .contact-form{
+  display: inline-table;
+  width: 69%;
+  text-align: left;
+}
+.contact-form form{
+  width: 80%;
+}
+.contact-form form p{
+  margin-top: 0px;
+}
+.contact-form form p input{
+  border: none;
+  height: 40px;
+  width: 100%;
+  background-color: rgba(0,0,0,0.5);
+  text-indent: 1em;
+  font-size:1.2em;
+  color:#fff;
+}
+.contact-form form p textarea{
+  text-indent: 1em;
+  border: none;
+  width: 100%;
+  background-color: rgba(0,0,0,0.5);
+  font-size:1.3em;
+  color:#fff;
+}
+div.wpcf7-response-output{
+  margin-top: 0px;
+}
+.wpcf7-not-valid-tip{
+  color:#c6ff00 !important;
+}
+div.wpcf7-validation-errors, div.wpcf7-acceptance-missing{
+  color:#c6ff00;
+  border: solid #c6ff00 1px;
+}
+.wpcf7-response-output, .wpcf7-display-none, .wpcf7-mail-sent-ng{
+  color:#c6ff00;
+  border: solid #c6ff00 1px !important;
+}
+
 /****************************************************************
    BACKGROUND VIDEO SECTION
 *****************************************************************/
