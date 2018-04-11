@@ -14,7 +14,13 @@
       echo '<ul>';
       while ( $the_query->have_posts() ) {
         $the_query->the_post();
-        echo '<li>' . get_the_content() . '</li>';
+        echo '<li style="background-image: url(' . get_the_content() . ')">
+               <div class="background-hover">
+                  <a href="">
+                    <i class="fas fa-search"></i>
+                  </a>
+               </div>
+            </li>';
       }
       echo '</ul>';
       /* Restore original Post Data */
