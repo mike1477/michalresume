@@ -13,8 +13,12 @@ add_action( 'wp_enqueue_scripts', 'mr_enqueue_scripts' );
 function mr_theme_setup(){
   //Register Menus
   register_nav_menus( array(
-	'primary' => 'Header Menu'
+	'primary'  => 'Header Menu',
+  'primary2' => 'Video Header Menu'
   ) );
+
+  //Include thumbnail features
+  add_theme_support('post-thumbnails');
 
 }
 

@@ -47,7 +47,6 @@ section{
 }
 .top-header p{
   font-size: 3em;
-
 }
 .down{
   padding-top: 50px;
@@ -60,8 +59,6 @@ section{
 .down a:hover{
   color : #6b9898;
   font-size: 4.2em;
-
-
 }
 
 /****************************************************************
@@ -83,7 +80,6 @@ section{
   position: absolute;
   bottom:0px;
 }
-
 .nav-header .site-title{
   display: inline-block;
   width:49%;
@@ -106,10 +102,6 @@ section{
 .menu-header-container ul li{
   display: inline-block;
   text-decoration: none;
-
-}
-#menu-item-7{
-  color: #fff;
 }
 .menu-header-container ul li a{
   padding: 2px 8px;
@@ -117,6 +109,27 @@ section{
 .menu-header-container ul li a:hover{
   cursor: pointer;
 }
+/****************************************************************
+  NAV VIDEO HEADER
+*****************************************************************/
+.menu-video-header-container{
+  text-align: right;
+}
+.menu-video-header-container ul li{
+  display: inline-block;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.menu-video-header-container ul li a{
+  padding: 2px 8px;
+  color: #fff;
+  text-decoration: none;
+}
+.menu-video-header-container ul li a:hover{
+  cursor: pointer;
+  color:#6b9898;
+}
+
 /****************************************************************
   ABOUT ME SECTION
 *****************************************************************/
@@ -333,4 +346,61 @@ div.wpcf7-validation-errors, div.wpcf7-acceptance-missing{
 }
 .social-icons-footer ul li a:hover{
   color: #444;
+}
+/****************************************************************
+    VIDEO PAGE
+*****************************************************************/
+.video-page-section div{
+  display: inline-grid;
+}
+.video-outer{
+  width:60%;
+  display: inline-grid;
+}
+.video-outer video{
+  width: 100%;
+}
+.content-outer{
+  width:39%;
+  float: right;
+  text-transform: uppercase;
+}
+.content-outer h4{
+  font-size: 1.8em;
+  margin-top: 10px;
+  margin-bottom:5px;
+}
+.project-features{
+  padding-left: 0px;
+}
+.project-features li{
+  display: inline-block;
+  width: 49%;
+  padding-top: 10px;
+  font-size: .9em;
+}
+.video-links{
+  padding-left:0px;
+}
+.video-links li{
+  background-color: #6b9898;
+  list-style-type: none;
+  margin-bottom: 10px;
+  width: 70%;
+  margin: 10px auto;
+  transition: background-color 1s;
+}
+.video-links li a{
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  color:#fff;
+  vertical-align: middle;
+}
+.video-links li:hover{
+  background-color: #444;
+}
+.link-icons{
+  margin-right:10px;
+  font-size: 1.7em;
 }

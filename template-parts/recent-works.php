@@ -11,12 +11,13 @@
 
     // Loop through and display each recent works
     if ( $the_query->have_posts() ) {
+
       echo '<ul>';
       while ( $the_query->have_posts() ) {
         $the_query->the_post();
-        echo '<li style="background-image: url(' . get_the_content() . ')">
+        echo '<li style="background-image: url('. get_the_post_thumbnail_url() .')">
                <div class="background-hover">
-                  <a href="">
+                  <a href="' . get_the_permalink() . '">
                     <i class="fas fa-search"></i>
                   </a>
                </div>
