@@ -26,6 +26,12 @@
   // Set the Sections to User window height
   //var screenHeight = $(window).height();
   var screenHeight = 700;
+  if($(window).width() <= 1119 && $(window).width() >= 768.9){
+    screenHeight = 600;
+  }
+  if($(window).width() <= 768.8){
+     screenHeight = 500;
+  }
   $(allSections).css("height" , screenHeight);
 
   /////////////////////////////////////////////////////////////

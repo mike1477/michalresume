@@ -1,16 +1,16 @@
 <?php get_header("98"); ?>
 
-<section class="video-page-section">
-  
-  <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
+  <section class="video-page-section">
 
- 		<?php the_content(); ?>
+    <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 
-  <?php endwhile; else : ?>
- 	<p><?php esc_html_e( 'Sorry, no posts matched your criteria.' ); ?></p>
- <?php endif; ?>
+   		<?php the_content(); ?>
 
-</section
+    <?php endwhile; else : ?>
+   	<p><?php esc_html_e( 'Sorry, no posts matched your criteria.' ); ?></p>
+   <?php endif; ?>
+
+  </section
 <?php get_footer(); ?>
 
 <!-- Paste this code below in the post for each recent works

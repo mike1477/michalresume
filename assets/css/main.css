@@ -64,6 +64,9 @@ section{
 /****************************************************************
   NAV HEADER
 *****************************************************************/
+.cellToggleButton{
+  display: none;
+}
 .nav-header{
   background-color:#000;
   z-index: 5;
@@ -353,6 +356,12 @@ div.wpcf7-validation-errors, div.wpcf7-acceptance-missing{
 .video-page-section div{
   display: inline-grid;
 }
+.video-outer-page{
+  width: 60%;
+}
+.video-outer-page video{
+  width: 100%;
+}
 .video-outer{
   width:60%;
   display: inline-grid;
@@ -361,7 +370,7 @@ div.wpcf7-validation-errors, div.wpcf7-acceptance-missing{
   width: 100%;
 }
 .content-outer{
-  width:39%;
+  width:38%;
   float: right;
   text-transform: uppercase;
 }
@@ -403,4 +412,657 @@ div.wpcf7-validation-errors, div.wpcf7-acceptance-missing{
 .link-icons{
   margin-right:10px;
   font-size: 1.7em;
+}
+
+/*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ MEDIUM SCREEN SIZE 992px - 1119.9px @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+@media (min-width: 992px ) and (max-width: 1119.9px) {
+
+  h1{
+    font-size: 5em;
+  }
+  h3{
+    font-size: 2.8em;
+    margin-top: 40px;
+    padding-top:20px;
+  }
+  h6{
+    font-size: 1.6em;
+  }
+  .green{
+    /*
+    color:#6b9898;
+    */
+    color:red;
+  }
+  /****************************************************************
+    TOP HEADER
+  *****************************************************************/
+  .top-header p{
+    font-size: 2.8em;
+  }
+  .down{
+    padding-top: 50px;
+  }
+
+  /****************************************************************
+    NAV HEADER
+  *****************************************************************/
+  .nav-header{
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .nav-header .site-title{
+    width:40%;
+  }
+  .nav-header nav{
+    width: 55%;
+  }
+  /****************************************************************
+    GOOD AT SECTION
+  *****************************************************************/
+  .box{
+     margin-left: 15%;
+  }
+  /****************************************************************
+     CONTACT SECTION
+  *****************************************************************/
+  .contact{
+    background-size: 100% 100%;
+  }
+  .contact-inner{
+    position: absolute;
+    top:0px;
+    left: 0px;
+    right: 0px;
+    bottom:0px;
+    background-color: rgba(0,0,0,0.7);
+  }
+  .contact-inner header{
+    color: #fff;
+  }
+  .contact-inner header h6{
+    margin-bottom: 10px;
+  }
+  .contact-section-outer{
+    width:90%;
+    margin: auto;
+    position: relative;
+  }
+  .contact-section-outer aside{
+    width:30%;
+  }
+  .contact-section-outer aside div p{
+    font-size: 1.3em;
+  }
+  .contact-section-outer .contact-form{
+    width: 69%;
+  }
+  .contact-form form{
+    width: 90%;
+  }
+  .contact-form form p textarea{
+    height: 125px;
+  }
+
+  /****************************************************************
+      VIDEO PAGE
+  *****************************************************************/
+  .video-links li{
+    width: 90%;
+  }
+  .video-links li a{
+    font-size: 1em;
+  }
+
+
+}
+/*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ SMALL SCREEN SIZE 789px - 991.1px @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+@media (min-width: 789px) and (max-width: 991.1px){
+  h1{
+    font-size: 4.5em;
+  }
+  h3{
+    font-size: 2.5em;
+    margin-top: 30px;
+    padding-top:10px;
+  }
+  h6{
+    font-size: 1.5em;
+    margin-top:0px;
+    margin-bottom: 40px;
+  }
+  .green{
+    /*
+    color:#6b9898;
+    */
+    color:yellow;
+  }
+
+  /****************************************************************
+    NAV HEADER
+  *****************************************************************/
+  .nav-header{
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  .nav-header .site-title{
+    width:36%;
+  }
+  .nav-header .site-title h2{
+    font-size: 1.8em;
+  }
+  .top-header p{
+    font-size: 2em;
+  }
+  .nav-header nav{
+    width: 55%;
+  }
+  .menu-header-container ul{
+    padding-left: 0px;
+    width: 100%;
+  }
+  .menu-header-container ul li{
+    font-size: .9em;
+  }
+  .menu-header-container ul li a{
+    padding: 2px 4px;
+  }
+
+  /****************************************************************
+    NAV VIDEO HEADER
+  *****************************************************************/
+  .menu-video-header-container{
+    text-align: right;
+    width:100%;
+  }
+  .menu-video-header-container ul{
+    padding-left: 0px;
+    width: 100%;
+
+  }
+  .menu-video-header-container ul li{
+    font-size: .9em;
+  }
+  .menu-video-header-container ul li a{
+    padding: 2px 4px;
+  }
+
+  /****************************************************************
+    ABOUT ME SECTION
+  *****************************************************************/
+
+  .about-me h6{
+    margin-bottom: 20px;
+  }
+  .video-outer{
+    width:80%;
+  }
+  /****************************************************************
+    GOOD AT SECTION
+  *****************************************************************/
+  .good-at h3{
+    margin-bottom: 40px;
+  }
+  .good-at ul{
+    padding-left: 0px;
+  }
+  .good-at ul li{
+    width: 24%;
+  }
+  .box{
+     margin-left: 15%;
+  }
+  /****************************************************************
+    RECENT WORKS SECTION
+  *****************************************************************/
+  .recent-works{
+    height: 350px !important;
+  }
+  .background-hover:hover{
+    height: 55%;
+  }
+  /****************************************************************
+     CONTACT SECTION
+  *****************************************************************/
+  .contact{
+    background-size: 100% 100%;
+  }
+  .contact-inner header h6{
+    margin-bottom: 5px;
+  }
+  .contact-section-outer{
+    width:90%;
+  }
+  .contact-section-outer aside{
+    width:40%;
+  }
+  .contact-section-outer .contact-form{
+    width: 59%;
+  }
+  .contact-form form{
+    width: 100%;
+  }
+  .contact-form form p input{
+    height: 30px;
+    font-size:1em;
+  }
+  .contact-form form p textarea{
+    height: 150px;
+  }
+  /****************************************************************
+     BACKGROUND VIDEO SECTION
+  *****************************************************************/
+  .background-video{
+    position: fixed;
+    top:0px;
+    bottom:0px;
+    right:0px;
+    left:0px;
+    background-color: #6b9898;
+    z-index: -1;
+  }
+  .background-video video{
+    left:0px;
+    right:0px;
+  }
+  /****************************************************************
+      VIDEO PAGE
+  *****************************************************************/
+  .video-page-section{
+    padding:10px;
+  }
+  .video-outer-page{
+    width:65%;
+  }
+  .video-outer-page video{
+    width: 100%;
+  }
+  .content-outer{
+    width:34%;
+  }
+  .content-outer h4{
+    font-size: 1.5em;
+    margin-top: 0px;
+
+  }
+  .project-features{
+    padding-left: 0px;
+  }
+  .project-features li{
+    padding-top: 5px;
+    font-size: .8em;
+  }
+  .video-links{
+    padding-left:0px;
+  }
+  .video-links li{
+    width: 100%;
+    font-size: 1em;
+  }
+  .link-icons{
+    margin-right:10px;
+
+  }
+
+}
+/*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ XSMALL SCREEN SIZE 768.9 - @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+@media (max-width: 788.9px) {
+
+  h1{
+    font-size: 2.2em;
+  }
+  h3{
+    font-size: 2em;
+    margin-top: 0px;
+    padding-top:20px;
+    padding-bottom: 0px;
+    margin-bottom:30px;
+  }
+  h6{
+    font-size: 1.1em;
+    margin-top:0px;
+    margin-bottom: 40px;
+  }
+  section{
+    padding : 20px 0px 10px 0px;
+  }
+  .green{
+    /*
+    color:#6b9898;
+    */
+    color:orange;
+  }
+  ul{
+    padding-left:0px;
+  }
+  /****************************************************************
+    TOP HEADER
+  *****************************************************************/
+  .top-header{
+   padding-top: 10%;
+  }
+  .top-header p{
+    font-size: 1.6em;
+  }
+  .down{
+    padding-top: 40px;
+  }
+  .down a{
+    font-size: 3em;
+  }
+
+  /****************************************************************
+    NAV HEADER
+  *****************************************************************/
+  .nav-header{
+    padding-left: 0px;
+    padding-right: 0px;
+    width: 100%;
+    margin: 0px;
+  }
+  .nav-header-top{
+    position: fixed;
+    top:0px;
+  }
+  .nav-header-bottom{
+    position: absolute;
+    bottom:0px;
+  }
+  .nav-header .site-title{
+    display: inline-block;
+    width:70%;
+    text-align: left;
+  }
+  .nav-header .site-title h2{
+    font-size: 1.5em;
+    text-align: left;
+    margin:5px 0px 5px 0px;
+  }
+  .nav-header nav{
+    display: inline-block;
+    width: 80%;
+  }
+  .menu-header-container{
+    text-align: center;
+  }
+  .menu-header-container ul li{
+    display: block;
+    border: solid #6b9898 1px;
+    margin-top: 5px;
+  }
+  .menu-header-container ul li a{
+    padding: 10px 20px;
+    display: block;
+  }
+  .cellToggleButton{
+    display: inline-block;
+    width:20%;
+    height: 30px;
+  }
+  .cellToggleButton button{
+    padding:2px 5px;
+    width:100%;
+    height: 100%;
+    border: solid #6b9898 1px;
+    display: block;
+    font-size: .9em;
+  }
+  /****************************************************************
+    NAV VIDEO HEADER menu-video-header-container header-nav
+  *****************************************************************/
+  .menu-video-header-container{
+    width: 100%;
+    text-align: center;
+    display: block;
+    margin-left: 10%;
+  }
+  .menu-video-header-container ul{
+    width: 100%;
+  }
+  .menu-video-header-container ul li{
+    display: block;
+    border: solid #6b9898 1px;
+    width: 80%;
+    margin-left: 10%;
+  }
+  .menu-video-header-container ul li a{
+    padding: 10px 20px;
+    display: block;
+  }
+
+  /****************************************************************
+    ABOUT ME SECTION
+  *****************************************************************/
+  #about-me{
+    height: 550px !important;
+  }
+  #about-me h3{
+    margin-bottom: 20px;
+  }
+  #about-me h6{
+    margin-bottom: 20px;
+  }
+  .video-outer{
+    width: 90%;
+  }
+  .about-me video{
+    width:100%;
+  }
+
+  /****************************************************************
+    GOOD AT SECTION
+  *****************************************************************/
+  .good-at{
+        height: 600px !important;
+  }
+  .good-at h3{
+    color:#fff;
+    margin-bottom: 70px;
+  }
+  .good-at ul li{
+    display: inline-block;
+    position: relative;
+    width: 40%;
+    text-align: center;
+  }
+  .box{
+     margin-left: 15%;
+     display: block;
+  }
+  .good-at-title{
+    color:#c6ff00;
+    display: block;
+  }
+  .good-at-title p{
+    font-size: .8em;
+  }
+  /****************************************************************
+    RECENT WORKS SECTION
+  *****************************************************************/
+  .recent-works{
+    background-color: #f6f6f6;
+    padding: 30px 0px 0px 0px;
+    height: 720px !important;
+  }
+  .recent-works header h3{
+    margin-bottom: 20px;
+  }
+  .recent-works header h6{
+    margin-bottom: 20px;
+  }
+  .recent-works ul{
+    padding:0px;
+    margin:0px;
+  }
+  .recent-works ul li{
+    display: block;
+    width: 50%;
+    margin: auto;
+    height: 200px;
+  }
+  .recent-works ul li img{
+    display: inline-block;
+    width:60%;
+    margin: auto;
+  }
+
+  .background-hover a:hover{
+    color:rgba(255, 255, 255,0.9);
+  }
+  .background-hover:hover{
+    background-color: rgba(0, 0, 0,0);
+  }
+  /****************************************************************
+     CONTACT SECTION
+  *****************************************************************/
+  .contact{
+    background-size: 200% 100%;
+    height: 720px !important;
+  }
+  .contact-inner{
+    position: absolute;
+    top:0px;
+    left: 0px;
+    right: 0px;
+    bottom:0px;
+    background-color: rgba(0,0,0,0.7);
+  }
+  .contact-inner header{
+    color: #fff;
+  }
+  .contact-inner header h6{
+    margin-bottom: 10px;
+  }
+  .contact-section-outer{
+    width:100%;
+    margin: auto;
+    position: relative;
+  }
+  .contact-section-outer aside{
+    display: inline-table;
+    width:95%;
+    margin: auto;
+  }
+  .contact-section-outer aside div{
+    height: 30px;
+  }
+  .contact-section-outer aside div p{
+    font-size: 1.1em;
+    margin-bottom: 5px;
+  }
+
+  .contact-section-outer .contact-form{
+    width: 95%;
+  }
+  .contact-form form{
+    width: 95%;
+    margin: auto;
+  }
+  .contact-form form p{
+    margin-top: 0px;
+  }
+
+  /****************************************************************
+      VIDEO PAGE
+  *****************************************************************/
+  .video-page-section div{
+    display: block;
+  }
+  .video-outer-page{
+    width:90%;
+    margin-left: 5%;
+  }
+  .video-outer-page video{
+    width: 100%;
+  }
+  .video-outer{
+    width:100%;
+    display: block;
+  }
+  .video-outer video{
+    width: 90%;
+  }
+  .content-outer{
+    width:90%;
+    margin-left: 5%;
+    float: none;
+    text-align: center;
+  }
+  .content-outer h4{
+    font-size: 1.5em;
+    margin:0px;
+    padding: 0px;
+  }
+  .project-features li{
+    font-size: .9em;
+  }
+  .video-links li{
+    width: 100%;
+    margin-top: 10px;
+  }
+  .video-links li a{
+    padding-left:10px 20px;
+  }
+  .link-icons{
+    font-size: 1.2em;
+  }
+}
+@media (max-width: 574px) {
+  .good-at{
+        height: 800px !important;
+  }
+
+  .good-at h3{
+    margin-bottom: 40px;
+  }
+  .good-at ul li{
+    width: 49%;
+  }
+  .box{
+     text-align: center;
+     display: inline-block;
+     float:none;
+     margin: 0px;
+  }
+  .good-at-title{
+    display: block;
+    margin-top: 0px;
+   width:100%;
+  }
+  .good-at-title p{
+    font-size: .8em;
+  }
+  .recent-works{
+    padding: 30px 0px 0px 0px;
+    height: 900px !important;
+  }
+  .recent-works header h3{
+    margin-bottom: 20px;
+  }
+  .recent-works header h6{
+    margin-bottom: 20px;
+  }
+  .recent-works ul{
+    padding:0px;
+    margin:0px;
+  }
+  .recent-works ul li{
+    display: block;
+    width: 80%;
+    margin: auto;
+    height: 250px;
+  }
+  .recent-works ul li img{
+    display: inline-block;
+    width:80%;
+    margin: auto;
+  }
+  .background-hover a:hover{
+    color:rgba(255, 255, 255,0.9);
+  }
+  .background-hover:hover{
+    background-color: rgba(0, 0, 0,0);
+  }
+
+
 }
