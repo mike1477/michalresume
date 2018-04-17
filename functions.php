@@ -14,7 +14,8 @@ function mr_theme_setup(){
   //Register Menus
   register_nav_menus( array(
 	'primary'  => 'Header Menu',
-  'primary2' => 'Video Header Menu'
+  'primary2' => 'Video Header Menu',
+  'social_media' => 'Social Icon Menu'
   ) );
 
   //Include thumbnail features
